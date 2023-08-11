@@ -1,0 +1,169 @@
+
+.banner{margin:auto;
+background-color: blanchedalmond;}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right; /* Align the navigation items to the right */
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.container {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+    gap: 20px; /* Adjust the gap value as needed */
+   text-align: center;  
+}
+.team-2 img{ width:900px;
+height:700px;}
+
+.container-1 {
+    display: grid;
+    grid-template-columns:auto auto;
+    gap: 10px; /* Adjust the gap value as needed */
+  }
+
+.section{display: flex;
+justify-content: center;
+text-align:center;}
+
+.container-2{text-align: center;
+justify-content: center;
+margin-top: 150px;}
+
+.btn-2{background-color:yellowgreen;
+width:100px;
+height:30px;}
+
+.container-3{display: flex;
+gap:200px;}
+
+.text-2 img{width:500px;
+height:450px;}
+
+.btn-3{width:200px;
+height:70px;
+background-color:rgba(237, 237, 39, 0.992);
+text-align: center;
+text-decoration-color:white ;
+}
+
+.container-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.container-5{display:flex;
+gap:20px;
+justify-content: center;}
+ 
+.container {
+    display: flex;
+  }
+  
+  .box {
+    width: 125px; /* Adjust the width as needed */
+    height: 125px; /* Adjust the height as needed */
+    background-color: #fffcfc; /* Adjust the background color as needed */
+    margin: 10px; /* Adjust the margin as needed */
+    border:1px solid orange;
+    justify-content: center;
+    text-align:center;
+  }
+  
+.text-3{text-align:center;}
+
+.container-6{display:flex;
+    justify-content: center;
+    gap:150px;
+}
+
+.div img{width:40px;
+height:40px;
+}  
+
+.container-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust this as needed */
+  }
+  
+  .footer {
+    background-color: burlywood;
+    text-align: center;
+    padding: 20px;
+  }
+  /* Media queries for responsive design */
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for small screens */
+  .team-2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container-1 {
+    grid-template-columns: auto;
+  }
+
+  .container-3 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .text-2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container-6 {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Media queries for medium screens */
+@media only screen and (max-width: 900px) {
+  .team-2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container-1 {
+    grid-template-columns: auto;
+  }
+
+  .container-3 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .text-2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container-6 {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+
